@@ -1,0 +1,248 @@
+<resources>
+
+    <string name="server_client_id" translatable="false">342546482524-biuraffb1oklcu9460u6p1goo07el8me.apps.googleusercontent.com</string>
+
+    <string name="app_name">Public Toilet Finder</string>
+    <string name="str_home">Home</string>
+    <string name="str_add_new_toilet">Add New Toilet</string>
+
+    <string name="str_drawer_close">Close</string>
+    <string name="str_drawer_open">Open</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="str_instruction_new_toilet">Instruction for Adding new Toilet</string>
+    <string name="str_instruction_msg">
+        Method 1: (GPS is enabled and near the toilets)\n
+        1: Press “My location” button (right-top corner of the map) to move map to current location\n
+        2: press “add toilet” button (the “+” button on the top)\n
+
+        Method 2: (no dependency on GPS or your location\n
+        1. Move map to the position you would like to add a toilet\n
+        2. Long click (click and hold the position. Choose “add toilet” item from the popup menu\n
+
+        Note:\n
+        1. GPS Location and address will be determined automatically please double check whether the address is your
+        expected location\n
+        2. the select location button (near gps location) can be used to select some POI
+        Nearby and fill title automatically
+    </string>
+    <string name="str_option_to_add_toilet">Choose an option To Add New Toilet</string>
+
+    <string name="str_toilet_name">Toilet Name...</string>
+    <string name="str_title">Title</string>
+    <string name="str_toilet_address">Toilet Address...</string>
+    <string name="str_addresss">Addresss</string>
+    <string name="str_provider">Provider</string>
+    <string name="str_latitude_longitude">Latitude, Longitude</string>
+    <string name="str_added_by">Added By</string>
+    <string name="str_add_toilet">Add Toilet</string>
+
+
+    <string-array name="provider_names">
+        <item>Select Provider</item>
+        <item>Bus Station</item>
+        <item>Petrol/CNG Pump</item>
+        <item>Airport</item>
+        <item>Shopping Center</item>
+        <item>Park</item>
+        <item>Railway station</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="category_names">
+        <item>Select Category</item>
+        <item>Bus Station</item>
+        <item>Petrol/CNG Pump</item>
+        <item>Airport</item>
+        <item>Shopping Center</item>
+        <item>Park</item>
+        <item>Railway station</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="str_name">Name</string>
+    <string name="str_category">Category</string>
+    <string name="str_location">Location</string>
+    <string name="str_male">Male</string>
+    <string name="str_female">Female</string>
+    <string name="str_both_male_and_female">Both Male and Female</string>
+    <string name="str_accessible_physical_challenge">Accessible Physical Challenge</string>
+    <string name="str_parking">Parking</string>
+    <string name="str_sanitary_disposal_bin">Sanitary Disposal Bin</string>
+    <string name="str_payment_required">Payment Required</string>
+    <string name="str_add_location_from_map">Add Location From Map</string>
+    <string name="str_add_place">Add Place</string>
+    <string name="str_toilet_available_for">Toilet available for</string>
+    <string name="str_available_facilities_of_toilet">Available facilities of Toilet</string>
+    <string name="str_permission_request">Permission Request</string>
+    <string name="str_permission_msg">App needed Location permission to access device location to provide required
+        services.Please allow the permission
+    </string>
+    <string name="str_grant_permission">Grant Permission</string>
+    <string name="str_provider_required">Provider is Required</string>
+    <string name="str_required">is Required</string>
+    <string name="str_gender_required">Please Select Gender</string>
+    <string name="str_new_toilet_added_successfuly">New Toilet Added Successfully</string>
+    <string name="str_add_new_toilet_msg">Please wait while new Toilet is Added</string>
+
+    <string name="str_review_the_toilet">Review the Toilet</string>
+    <string name="str_take_picture">Take Picture</string>
+    <string name="str_optional">(Optional)</string>
+    <string name="str_submit_your_review">Submit your review</string>
+    <string name="str_to_review_toilet_tap_here">To review Toilet tap here</string>
+    <string name="str_use_current_location">Use Current Location</string>
+    <string name="str_add_coordinate_from_map">Add Coordinates from Map</string>
+    <string name="str_complete_action">Select Action</string>
+    <string name="str_pick_image_from_gallery">Select photo from gallery</string>
+    <string name="str_take_img_using_camera">Capture photo from camera</string>
+
+    <string name="str_submit_review">Review Submitted</string>
+    <string name="str_review_thank_you">Thank you for your feedback, we will review it soon</string>
+    <string name="str_review_not_submitted">Review not submitted</string>
+    <string name="str_review_submisson_error">An error occur while submitting your review</string>
+    <string name="str_error">Error</string>
+    <string name="str_error_on_server">An error occur on server while submitting your review</string>
+    <string name="str_review_msg">Please write a few words about the toilet</string>
+    <string name="str_rate_toilet">Please rate the toilet first</string>
+    <string name="str_allow_all_permission">You should enable all request permission</string>
+    <string name="str_manually_allow_permission">You should manually enable Read storage permission from App setting
+    </string>
+    <string name="str_submitting_review">Submitting Review...</string>
+    <string name="str_review_submission_msg">Wait for a while we submit your review</string>
+    <string name="str_internet_msg">Make sure you have an active internet connection</string>
+    <string name="str_language">Change Language</string>
+    <string name="str_english">English</string>
+    <string name="str_urdu">Urdu</string>
+    <string name="str_pashto">Pashto</string>
+
+    <string name="str_hand_washing_facility">Hand washing facility</string>
+    <string name="str_soap">Soap</string>
+    <string name="str_khyber_pakhtunkwa">Khyber Pakhtunkwa</string>
+    <string name="str_powered_by">Powered by</string>
+    <string name="str_kpk_information_board">Khyber Pakhtunkwa Information Board Technology</string>
+
+
+    <string name="str_explore_title">Welcome to Toilet Finder!</string>
+    <string name="str_explore">
+This app lets you explore the nearest toilet location based on your current location coordinates. You can also explore nearest toilet locations on filters such as public or private toilets or finding an accessibility toilet.
+This app enables the citizens of Khyber Pakhtunkhwa to find toilets and take care of their Health and Hygiene.
+There is also support for localization, allowing users to switch between their desired language
+    </string>
+
+    <string name="str_navigate">
+        Toilet Finder makes it easy to Navigate and Find Nearest Toilets
+The Home Screen Features a Search Bar and Nearby Toilet suggestions.
+The search bar gives suggestions to the nearest toilets based on the users location. The user can also search for a toilet location in a specific area or location.
+    </string>
+
+    <string name="str_user_rate">
+        Toilet finder app enables users to rate their experience of using a public/private/accessibility toilet.  Users can provide feedback such as rating the cleanliness of the toilet, availability of clean water, availability of soaps and tissue paper and the proper functioning of the Commodes and Faucets.
+    </string>
+    <string name="str_search_for_toilet">Search for public toilet around you</string>
+    <string name="str_nearby">Nearby</string>
+
+    <string name="str_public_toilet">Public Toilet</string>
+    <string name="str_explore_img">Explore</string>
+    <string name="str_navigator_img">Navigator</string>
+    <string name="str_user_rate_img">User Rate</string>
+    <string name="str_how_it_works">How it works</string>
+    <string name="str_toilet_detail_image">Toilet detail image</string>
+    <string name="str_amenities">AMENITIES</string>
+    <string name="str_accessibility">Accessibility</string>
+    <string name="str_hand_wash">Hand wash</string>
+    <string name="str_reviews">Reviews</string>
+    <string name="str_review_this_toilet">Review it</string>
+    <string name="str_location_on_map">Location on map</string>
+    <string name="str_toilet_is_not_reviewed">Toilet is not reviewed</string>
+    <string name="str_search_for_a_toilet">Search for a toilet</string>
+    <string name="str_filter_toilet">Filter Toilet</string>
+    <string name="str_search">Search</string>
+    <string name="str_gender">Gender?</string>
+    <string name="str_both">Both</string>
+    <string name="str_distance">Distance</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string>
+    <string name="str_rating">Rating</string>
+    <string name="str_write_your_feedback">Write your feedback</string>
+    <string name="str_no_toilet_is_found">No toilet is found</string>
+    <string name="str_no_internet_connection">No Internet Connection</string>
+    <string name="str_male_female">male/female</string>
+    <string name="str_help">Help</string>
+
+    <string name="str_about_us">About us</string>
+    <string name="str_others">Others</string>
+    <string name="str_location_title">Use Location ?</string>
+    <string name="str_location_msg">The app needs GPS to be enabled.Do you want to go to settings menu?</string>
+    <string name="str_setting">Settings</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_get_direction">Get Direction</string>
+    <string name="str_permission_title">Permission Denied</string>
+    <string name="str_permission_msg_dialog">Permission is denied permanently. You need to go to setting to allow permission so that App perform all their function properly</string>
+    <string name="str_advance_search">Advance Search</string>
+    <string name="str_no_toilet_found_in_10_km">No toilet is found within 10 km radius, Try our advance search</string>
+    <string name="str_all_toilets">All Toilets</string>
+
+    <string name="str_search_by_city">Search By City</string>
+    <string name="str_or">Or</string>
+    
+    <string name="str_no_result_found">No Result Found</string>
+    <string name="str_no_search_result">We can\'t find any item matching your search</string>
+    <string name="str_searching_toilet">Searching a toilet...</string>
+    <string name="str_0_km">0 km</string>
+    <string name="str_km">km</string>
+    <string name="str_no_toilet_is_found_25_km">No toilet found inside 25km of your radius.</string>
+    <string name="str_do_you_want_add_new_toilet"><u>Do you want to add a new toilet?</u></string>
+    <string name="str_toilet_not_added">Toilet Not Added!</string>
+    <string name="str_error_on_server_side">Server side error!</string>
+
+    <string-array name="city_names">
+        <item>Select a city</item>
+        <item>Abbottabad</item>
+        <item>Adezai</item>
+        <item>Alpuri</item>
+        <item>Akora Khattak</item>
+        <item>Ayubia</item>
+        <item>Banda Daud Shah</item>
+        <item>Bannu</item>
+        <item>Batkhela</item>
+        <item>Battagram</item>
+        <item>Birote</item>
+        <item>Chakdara</item>
+        <item>Charsadda</item>
+        <item>Chitral</item>
+        <item>Daggar</item>
+        <item>Dargai</item>
+        <item>Darya Khan</item>
+        <item>Dera Ismail Khan</item>
+        <item>Doaba</item>
+        <item>Dir</item>
+        <item>Drosh</item>
+        <item>Hangu</item>
+        <item>Haripur</item>
+        <item>Karak</item>
+        <item>Kohat</item>
+        <item>Kulachi</item>
+        <item>Lakki Marwat</item>
+        <item>Latamber</item>
+        <item>Madyan</item>
+        <item>Mansehra</item>
+        <item>Mardan</item>
+        <item>Mastuj</item>
+        <item>Mingora</item>
+        <item>Nowshera</item>
+        <item>Paharpur</item>
+        <item>Pabbi</item>
+        <item>Peshawar</item>
+        <item>Saidu Sharif</item>
+        <item>Shorkot</item>
+        <item>Shewa Adda</item>
+        <item>Swabi</item>
+        <item>Swat</item>
+        <item>Tangi</item>
+        <item>Tank</item>
+        <item>Thall</item>
+        <item>Timergara</item>
+        <item>Tordher</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddPlaceOnMapActivity">
+
+
+    <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mapAddToilet"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <ImageView
+            android:layout_width="@dimen/img_marker_width_height"
+            android:layout_height="@dimen/img_marker_width_height"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_marker"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="@string/str_add_place"
+            android:textSize="@dimen/btn_add_toilet_txt_size"
+            android:layout_marginLeft="@dimen/btn_add_toilet_margin_left_right"
+            android:layout_marginRight="@dimen/btn_add_toilet_margin_left_right"
+            android:textAllCaps="false"
+            android:id="@+id/btnAddPlace"
+            android:onClick="btnAddNewPlace"
+            android:layout_marginBottom="@dimen/tv_add_new_toilet_margin_top"
+    />
+
+</FrameLayout>

@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">د عامه تشناب موندونکی</string>
+    <string name="str_home">کور</string>
+    <string name="str_add_new_toilet">نوی تشناب اضافه کړئ</string>
+
+    <string name="str_drawer_close">بندول</string>
+    <string name="str_drawer_open">خلاص</string>
+    <string name="title_activity_maps">نقشه</string>
+
+    <string name="str_instruction_new_toilet">Instruction for Adding new Toilet</string>
+    <string name="str_instruction_msg">
+        Method 1: (GPS is enabled and near the toilets)\n
+        1: Press “My location” button (right-top corner of the map) to move map to current location\n
+        2: press “add toilet” button (the “+” button on the top)\n
+
+        Method 2: (no dependency on GPS or your location\n
+        1. Move map to the position you would like to add a toilet\n
+        2. Long click (click and hold the position. Choose “add toilet” item from the popup menu\n
+
+        Note:\n
+        1. GPS Location and address will be determined automatically please double check whether the address is your
+        expected location\n
+        2. the select location button (near gps location) can be used to select some POI
+        Nearby and fill title automatically
+    </string>
+    <string name="str_option_to_add_toilet">د نوي تشناب اضافه کولو لپاره یو انتخاب غوره کړئ</string>
+
+    <string name="str_toilet_name">د تشناب نوم ...</string>
+    <string name="str_title">سرلیک</string>
+    <string name="str_toilet_address">د تشناب پته ...</string>
+    <string name="str_addresss">پته</string>
+    <string name="str_provider">چمتو کونکی</string>
+    <string name="str_latitude_longitude">عرض البلد ، عرض البلد</string>
+    <string name="str_added_by">اضافه شوی له خوا</string>
+    <string name="str_add_toilet">تشناب اضافه کړئ</string>
+
+
+    <string-array name="provider_names">
+        <item>برابرونکی غوره کړئ</item>
+        <item>د بس تمځای</item>
+        <item>پطرول / CNG پمپ</item>
+        <item>هوایی ډګر</item>
+        <item>د پیرودلو مرکز</item>
+        <item>پارک</item>
+        <item>د اورګاډي اډه</item>
+        <item>نور</item>
+    </string-array>
+
+
+    <string-array name="category_names">
+        <item>کټګورۍ غوره کړئ</item>
+        <item>د بس تمځای</item>
+        <item>پطرول / CNG پمپ</item>
+        <item>هوایی ډګر</item>
+        <item>د پیرودلو مرکز</item>
+        <item>پارک</item>
+        <item>د اورګاډي اډه</item>
+        <item>نور</item>
+    </string-array>
+
+    <string name="str_name">نوم</string>
+    <string name="str_category">کټګورۍ</string>
+    <string name="str_location">ځای</string>
+    <string name="str_male">نر</string>
+    <string name="str_female">ښځه</string>
+    <string name="str_both_male_and_female">نارینه او ښځینه دواړه</string>
+    <string name="str_accessible_physical_challenge">د لاسرسي فزیکي ننګونه</string>
+    <string name="str_parking">پارکینګ</string>
+    <string name="str_sanitary_disposal_bin">د سنیټیټ ډسپوزل بن</string>
+    <string name="str_payment_required">تادیه اړینه ده</string>
+    <string name="str_add_location_from_map">له نقشه څخه ځای اضافه کړئ</string>
+    <string name="str_add_place">ځای اضافه کړئ</string>
+    <string name="str_toilet_available_for">تشناب د</string>
+    <string name="str_available_facilities_of_toilet">د تشناب موجود اسانتیاوې</string>
+    <string name="str_permission_request">د اجازه غوښتنه</string>
+    <string name="str_permission_msg">ایپ ته اړتیا وه چمتو کولو لپاره د آلې موقعیت ته لاسرسي لپاره موقعیت ته اړتیا وي
+                خدمات. مهرباني وکړئ اجازه ورکړئ
+    </string>
+    <string name="str_grant_permission">اجازه ورکول</string>
+    <string name="str_provider_required">چمتو کونکی اړین دی</string>
+    <string name="str_required">اړین دی</string>
+    <string name="str_gender_required">مهرباني وکړئ صنف وټاکئ</string>
+    <string name="str_new_toilet_added_successfuly">نوی تشناب په بریالیتوب سره اضافه شو</string>
+    <string name="str_add_new_toilet_msg">مهرباني وکړئ انتظار وکړئ پداسې حال کې چې نوي تشناب اضافه کیږي</string>
+
+    <string name="str_review_the_toilet">تشناب ته کتنه وکړئ</string>
+    <string name="str_take_picture">انځور واخلئ</string>
+    <string name="str_optional">(اختیاري)</string>
+    <string name="str_submit_your_review">خپله بیاکتنه وسپارئ</string>
+    <string name="str_to_review_toilet_tap_here">د تشناب ټایپ بیاکتلو لپاره دلته</string>
+    <string name="str_use_current_location">اوسنی ځای وکاروئ</string>
+    <string name="str_add_coordinate_from_map">له نقشه څخه همغږي کول</string>
+    <string name="str_complete_action">عمل وټاکئ</string>
+    <string name="str_pick_image_from_gallery">د ګالري څخه عکس غوره کړئ</string>
+    <string name="str_take_img_using_camera">د کیمرې څخه عکس واخلئ</string>
+
+    <string name="str_submit_review">بیاکتنه وسپارل شوه</string>
+    <string name="str_review_thank_you">ستاسو د نظر له امله مننه ، موږ به یې په دې اړه له سره کتنه وکړو</string>
+    <string name="str_review_not_submitted">بیاکتنه نه ده سپارل شوې</string>
+    <string name="str_review_submisson_error">ستاسو د بیاکتنې سپارلو پرمهال یوه ستونزه رامینځته شوه</string>
+    <string name="str_error">تېروتنه</string>
+    <string name="str_error_on_server">ستاسو د بیاکتنې سپارلو پرمهال په سرور کې ستونزه رامینځته کیږي</string>
+    <string name="str_review_msg">مهرباني وکړئ د تشناب په اړه یو څو ټکي ولیکئ</string>
+    <string name="str_rate_toilet">مهرباني وکړئ لومړی د تشناب درجه ورکړئ</string>
+    <string name="str_allow_all_permission">تاسو باید د ټولو غوښتنې اجازه فعال کړئ</string>
+    <string name="str_manually_allow_permission">تاسو باید په لاسي ډول د اپل ترتیباتو څخه د لوستلو ذخیره وړ کړئ
+    </string>
+    <string name="str_submitting_review">د بیاکتنې سپارل ...</string>
+    <string name="str_review_submission_msg">د یو څه انتظار لپاره موږ ستاسو بیاکتنه وړاندې کوو</string>
+    <string name="str_internet_msg">ډاډ ترلاسه کړئ چې تاسو فعاله انټرنیټ اتصال لرئ</string>
+
+    <string name="str_language">ژبه بدل کړئ</string>
+    <string name="str_english">انګلیسي</string>
+    <string name="str_urdu">اردو</string>
+    <string name="str_pashto">پښتو</string>
+
+    <string name="str_hand_washing_facility">د لاسونو مینځلو ځای</string>
+    <string name="str_soap">صابون</string>
+    <string name="str_khyber_pakhtunkwa">خیبر پښتونخوا</string>
+    <string name="str_powered_by">لخوا وړاندې شوی</string>
+    <string name="str_kpk_information_board">د خیبر پښتونخواه معلوماتي بورډ ټیکنالوژي</string>
+
+    <string name="str_search_for_toilet">خپل شاوخوا د عامه تشنابونو لټون وکړئ</string>
+    <string name="str_nearby">نږدې</string>
+
+    <string name="str_public_toilet">عامه تشناب</string>
+    <string name="str_explore_img">سپړنه</string>
+    <string name="str_navigator_img">نیویګیټر</string>
+    <string name="str_user_rate_img">د کاروونې کچه</string>
+    <string name="str_how_it_works">څنګه کار کوي</string>
+    <string name="str_toilet_detail_image">د تشناب توضیحي عکس</string>
+    <string name="str_amenities">اسانتیاوې</string>
+    <string name="str_accessibility">لاسرسی</string>
+    <string name="str_hand_wash">د لاس مینځل</string>
+    <string name="str_reviews">بیاکتنې</string>
+    <string name="str_review_this_toilet">بیاکتنه وکړئ</string>
+    <string name="str_location_on_map">په نقشه کې موقعیت</string>
+    <string name="str_toilet_is_not_reviewed">تشناب نه دی و ارزول شوی</string>
+    <string name="str_search_for_a_toilet">تشناب لټول</string>
+    <string name="str_filter_toilet">د تشناب فلټر</string>
+    <string name="str_search">لټون</string>
+    <string name="str_gender">جنډر؟</string>
+    <string name="str_both">دواړه</string>
+    <string name="str_distance">واټن</string>
+    <string name="str_yes">هو</string>
+    <string name="str_no">نه</string>
+    <string name="str_rating">درجه ورکول</string>
+    <string name="str_write_your_feedback">خپل نظر وليکئ</string>
+    <string name="str_no_toilet_is_found">تشناب نشته</string>
+    <string name="str_no_internet_connection">د انټرنیټ اتصال نشته</string>
+    <string name="str_male_female">نارینه / ښځینه</string>
+
+    <string name="str_help">مرسته</string>
+
+    <string name="str_about_us">زموږ په اړه</string>
+    <string name="str_others">نور</string>
+    <string name="str_location_title">ځای وکاروئ؟</string>
+    <string name="str_location_msg">ایپ فعالولو لپاره GPS ته اړتیا لري. ایا تاسو غواړئ تنظیماتو مینو ته لاړشئ؟</string>
+    <string name="str_setting">امستنې</string>
+    <string name="str_cancel">لغوه کول</string>
+    <string name="str_get_direction">لارښود ترلاسه کړئ</string>
+    <string name="str_permission_title">اجازه ورنکړل شوه</string>
+    <string name="str_permission_msg_dialog">اجازه لیک د تل لپاره منع دی تاسو اړتیا لرئ تنظیم ته لاړشئ ترڅو اجازه ورته ورکړئ ترڅو اپل د دوی ټول فعالیت په سمه توګه ترسره کړي</string>
+
+    <string name="str_explore_title">تشناب موندونکي ته ښه راغلاست!</string>
+
+    <string name="str_explore">
+دا ایپ تاسو ته اجازه درکوي د خپل اوسني ځای همغږۍ پراساس د نږدې تشناب موقعیت وپلټئ. تاسو کولی شئ په فلټرونو کې د نږدې تشناب ځایونه هم وپلټئ لکه عامه یا شخصي تشنابونه یا د لاسرسي تشناب موندلو.
+دا ایپ د خیبر پښتونخوا اتباعو ته توان ورکوي چې تشنابونه ومومي او د دوی روغتیا او حفظ الصحې ته پاملرنه وکړي.
+د ځایی کولو لپاره هم ملاتړ شتون لري ، کاروونکو ته اجازه ورکوي چې د خپلې مطلوب ژبې ترمینځ بدل شي
+    </string>
+
+
+    <string name="str_navigate">
+       د تشناب موندونکی د نږدې تشنابونو نیویګیټ او موندل اسانه کوي
+د کور سکرین د لټون بار او نږدې د تشناب وړاندیزونه ب .ه کوي.
+د لټون بار د کاروونکو موقعیت پراساس نږدې تشنابونو ته وړاندیزونه ورکوي. کارونکی کولی شي په یوه مشخصه سیمه یا موقعیت کې د تشناب موقعیت هم وپلټي.
+    </string>
+
+    <string name="str_user_rate">
+        د تشناب موندونکي ایپ کاروونکو ته وړتیا ورکوي چې د عامه / شخصي / لاسرسي تشناب کارولو تجربه درجه کړي. کارونکي کولی شي نظریات چمتو کړي لکه د تشناب پاکولو درجه بندي کول ، د پاکو اوبو شتون ، د صابون شتون او د کوډونو او نلونو سم فعالیت.
+    </string>
+
+    <string name="str_advance_search">پرمختللی لټون</string>
+    <string name="str_no_toilet_found_in_10_km">هیڅ تشناب د 10 کیلومترو په اندازې کې نه موندل کیږي ، زموږ د مخکې لټون هڅه وکړئ</string>
+
+    <string name="str_all_toilets">ټول تشنابونه</string>
+
+    <string name="str_search_by_city">د یوه ښار لخوا لټون</string>
+    <string name="str_or">یا</string>
+
+    <string name="str_no_result_found">کومه پایله ونه موندل شوه</string>
+    <string name="str_no_search_result">موږ ستاسو د لټون مطابق هیڅ تشناب ونه موندل</string>
+    <string name="str_searching_toilet">تشناب لټول ...</string>
+
+    <string-array name="city_names">
+        <item>یو ښار غوره کړئ</item>
+        <item>ایبټ آباد</item>
+        <item>اډزۍ</item>
+        <item>الپوری</item>
+        <item>اکوړه خټک</item>
+        <item>ایوبیه</item>
+        <item>بنده داود شاه</item>
+        <item>بنو</item>
+        <item>بټخيله</item>
+        <item>بټګرام</item>
+        <item>بیروټ</item>
+        <item>چکدرې</item>
+        <item>چارسده</item>
+        <item>چترال</item>
+        <item>ډاګر</item>
+        <item>درګۍ</item>
+        <item>دریا خان</item>
+        <item>ډيره اسماعيل خان</item>
+        <item>دوآبه</item>
+        <item>دیر</item>
+        <item>دروش</item>
+        <item>هنګو</item>
+        <item>هری پور</item>
+        <item>کراک</item>
+        <item>کوهاټ</item>
+        <item>کلاچي</item>
+        <item>لکی مروت</item>
+        <item>لاتمبر</item>
+        <item>مدیان</item>
+        <item>مانسهره</item>
+        <item>مردان</item>
+        <item>مستوج</item>
+        <item>منګوره</item>
+        <item>نوشهره</item>
+        <item>پهاړپور</item>
+        <item>پابي</item>
+        <item>پیښور</item>
+        <item>سیدو شریف</item>
+        <item>شورکوټ</item>
+        <item>شیوا اډا</item>
+        <item>صوابی</item>
+        <item>سوات</item>
+        <item>تنګي</item>
+        <item>ټانک</item>
+        <item>تال</item>
+        <item>ټایمرګره</item>
+        <item>تورډر</item>
+    </string-array>
+
+</resources>

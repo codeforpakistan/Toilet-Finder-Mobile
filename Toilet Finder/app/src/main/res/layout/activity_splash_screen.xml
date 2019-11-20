@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_splash_bg"
+        tools:context=".SplashScreenActivity">
+
+   <!-- <ImageView
+            android:id="@+id/imgKpitbLogo"
+            android:layout_width="@dimen/img_kpitb_width_height"
+            android:layout_height="@dimen/img_kpitb_width_height"
+            android:layout_margin="@dimen/img_kpitb_margin"
+            android:src="@drawable/ic_kpitb" />
+-->
+
+    <ImageView
+            android:id="@+id/imgMarker"
+            android:layout_width="@dimen/img_logo_width_height"
+            android:layout_height="@dimen/img_logo_width_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/img_intro_margin_top"
+            android:src="@drawable/ic_location_marker" />
+
+    <TextView
+            android:id="@+id/tv_Kpk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgMarker"
+            android:layout_marginTop="@dimen/tv_splash_margin_top"
+            android:fontFamily="@font/font_cairo_regular"
+            android:gravity="center"
+            android:text="@string/str_khyber_pakhtunkwa"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_kpk_txt_size" />
+
+    <TextView
+            android:id="@+id/tv_appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_Kpk"
+            android:fontFamily="@font/font_cairo_regular"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_appname_txt_size" />
+
+    <!--Text view powered by-->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tvPoweredBy"
+            android:layout_marginLeft="@dimen/img_kpitb_margin"
+            android:layout_marginRight="@dimen/img_kpitb_margin"
+            android:fontFamily="@font/font_cairo_regular"
+            android:text="@string/str_powered_by"
+            android:textColor="@color/color_light_gray"
+            android:textSize="@dimen/tv_powered_by_txt_size" />
+
+    <TextView
+            android:id="@+id/tvPoweredBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/img_kpitb_margin"
+            android:layout_marginRight="@dimen/img_kpitb_margin"
+            android:layout_marginBottom="@dimen/img_kpitb_margin"
+            android:fontFamily="@font/font_cairo_regular"
+            android:text="@string/str_kpk_information_board"
+            android:textColor="@color/color_light_gray"
+            android:textSize="@dimen/tv_powered_by_txt_size" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02dbc1</color>
+    <color name="colorPrimaryDark">#0d8a90</color>
+    <color name="colorAccent">#319ee5</color>
+
+    <color name="dialog_color">#BEBEBE</color>
+    <color name="color_line_separator">#E4E4E4</color>
+    <color name="color_light_gray">#C2C2C2</color>
+
+    <color name="color_white_gray1">#F5F2F2</color>
+</resources>

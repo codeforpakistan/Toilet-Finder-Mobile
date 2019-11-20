@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.AboutUsFragment">
+
+
+    <ImageView
+            android:id="@+id/imgMarker"
+            android:layout_width="@dimen/img_logo_width_height"
+            android:layout_height="@dimen/img_logo_width_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/tv_app_intro_txt_size"
+            android:src="@drawable/ic_location_marker" />
+
+    <TextView
+            android:id="@+id/tv_appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgMarker"
+            android:fontFamily="@font/font_cairo_regular"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_appname_txt_size"
+            android:textStyle="bold" />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_appName"
+            android:layout_margin="@dimen/img_marker_margin_top">
+
+        <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_explore"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tv_intro_txt_size" />
+
+    </ScrollView>
+
+</RelativeLayout>

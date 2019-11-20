@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/btn_new_toilet_add_margin_top"
+        android:background="@drawable/bg_dialog">
+
+    <ImageView
+            android:layout_width="@dimen/img_nav_width_height"
+            android:layout_height="@dimen/img_nav_width_height"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/nav_views_margin"
+            android:layout_marginTop="@dimen/et_review_toilet_margin_top"
+            android:src="@mipmap/ic_launcher" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_cairo_bold"
+            android:gravity="center"
+            android:text="@string/str_add_new_toilet"
+            android:textSize="@dimen/tv_review_toilet_title_size" />
+
+
+    <Button
+            android:id="@+id/btnUserCurrentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btn_new_toilet_add_margin_top"
+            android:background="@drawable/bg_button"
+            android:textColor="@android:color/white"
+            android:text="@string/str_use_current_location"
+            android:textSize="@dimen/btn_add_toilet_txt_size"
+            android:fontFamily="@font/font_cairo_regular"
+            android:textAllCaps="false" />
+
+    <Button
+            android:id="@+id/btnCoordinateFromMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/btn_new_toilet_add_margin_top"
+            android:layout_marginRight="@dimen/btn_new_toilet_add_margin_top"
+            android:layout_marginLeft="@dimen/btn_review_margin"
+            android:layout_marginBottom="@dimen/btn_new_toilet_add_margin_top"
+            android:background="@drawable/bg_button"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/font_cairo_regular"
+            android:textSize="@dimen/btn_add_toilet_txt_size"
+            android:text="@string/str_add_coordinate_from_map"
+            android:textAllCaps="false"
+            android:layout_marginEnd="@dimen/btn_new_toilet_add_margin_top" />
+</LinearLayout>

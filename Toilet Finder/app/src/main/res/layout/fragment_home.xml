@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutSwipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".fragments.HomeFragment">
+
+        <!--layout header -->
+        <RelativeLayout
+                android:id="@+id/layoutHomeHeader"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_header_height"
+                android:background="@drawable/bg_toolbar">
+
+            <ImageView
+                    android:id="@+id/imgHomeMarker"
+                    android:layout_width="@dimen/img_home_marker_width_height"
+                    android:layout_height="@dimen/img_home_marker_width_height"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_marker_home" />
+
+           <!-- <TextView
+                    android:id="@+id/tv_Kpk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgHomeMarker"
+                    android:layout_marginTop="@dimen/et_search_margin_top"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:gravity="center"
+                    android:text="@string/str_khyber_pakhtunkwa"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/tv_kpk_txt_size" />-->
+
+            <TextView
+                    android:id="@+id/tvAppName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgHomeMarker"
+                    android:fontFamily="@font/font_cairo_bold"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/tv_toolbar_txt_size" />
+
+
+        </RelativeLayout>
+
+        <!--edit text search-->
+        <LinearLayout
+                android:id="@+id/layoutSearchToilet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/et_search_margin_left_right"
+                android:layout_marginTop="@dimen/et_search_margin_top"
+                android:layout_marginRight="@dimen/et_search_margin_left_right"
+                android:background="@drawable/bg_edittxt_search"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/et_search_padding_left_right"
+                android:paddingTop="@dimen/et_search_padding_top_bottom"
+                android:paddingRight="@dimen/et_search_padding_left_right"
+                android:paddingBottom="@dimen/et_search_padding_top_bottom"
+                app:layout_anchor="@id/layoutHomeHeader"
+                app:layout_anchorGravity="bottom">
+
+            <ImageView
+                    android:layout_width="@dimen/img_search_home_width_height"
+                    android:layout_height="@dimen/img_search_home_width_height"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_search" />
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_search_for_toilet"
+                    android:textColor="@color/color_light_gray"
+                    android:textSize="@dimen/tv_powered_by_txt_size" />
+
+        </LinearLayout>
+
+        <!--layout contain-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/layout_container_margin_top"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/et_search_margin_left_right"
+                    android:layout_marginLeft="@dimen/et_search_margin_left_right"
+                    android:fontFamily="@font/font_cairo_bold"
+                    android:text="@string/str_nearby"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/tv_kpk_txt_size" />
+
+            <!--Horizontal recycler view-->
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                <ProgressBar
+                        android:id="@+id/progressNearByToilet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+
+                <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerView_nearby"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/recyclerview_margin_top"
+                        android:layout_marginBottom="@dimen/recyclerview_margin_top" />
+
+                <!-- layout no toilet found with 25 km radius -->
+                <LinearLayout
+                        android:id="@+id/layoutNoToiletIn25Km"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:visibility="gone"
+                        android:layout_marginBottom="@dimen/recyclerview_margin_top"
+                        android:layout_marginRight="@dimen/et_search_margin_left_right"
+                        android:layout_marginLeft="@dimen/et_search_margin_left_right">
+
+                    <ImageView
+                            android:layout_width="@dimen/img_nav_width_height"
+                            android:layout_height="@dimen/img_nav_width_height"
+                            android:src="@drawable/ic_no_search_result"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:contentDescription="@string/str_no_toilet_is_found"
+                            />
+
+                    <TextView
+                            android:id="@+id/tvNoToiletFoundmsg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/font_cairo_regular"
+                            android:gravity="center"
+                            android:layout_marginTop="-5dp"
+                            android:text="@string/str_no_toilet_is_found_25_km"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/tv_kpk_txt_size" />
+                    <TextView
+                            android:id="@+id/tvNoToiletIn25Km"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/font_cairo_bold"
+                            android:gravity="center"
+                            android:layout_marginTop="-6dp"
+                            android:text="@string/str_do_you_want_add_new_toilet"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/tv_kpk_txt_size" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/et_search_margin_left_right"
+                    android:layout_marginLeft="@dimen/et_search_margin_left_right"
+                    android:layout_marginBottom="@dimen/et_search_padding_left_right"
+                    android:fontFamily="@font/font_cairo_bold"
+                    android:text="@string/str_how_it_works"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/tv_kpk_txt_size" />
+
+            <!-- Bottom layout -->
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/recyclerview_margin_top"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                <!--layout explore-->
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/et_search_margin_left_right"
+                        android:layout_marginLeft="@dimen/et_search_margin_left_right"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:id="@+id/layoutExplore"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/layout_bottom_height"
+                            android:layout_marginBottom="@dimen/et_search_padding_left_right"
+                            android:background="@drawable/bg_home_icon">
+
+                        <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:contentDescription="@string/str_explore_img"
+                                android:padding="@dimen/img_bottom_icon_padding"
+                                android:src="@drawable/ic_explore" />
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/font_cairo_bold"
+                            android:text="@string/str_explore_img"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/tv_kpk_txt_size" />
+                </LinearLayout>
+
+                <!--layout navigator-->
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/et_search_margin_left_right"
+                        android:layout_marginLeft="@dimen/et_search_margin_left_right"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:id="@+id/layoutNavigator"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/layout_bottom_height"
+                            android:layout_marginBottom="@dimen/et_search_padding_left_right"
+                            android:background="@drawable/bg_home_icon">
+
+                        <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:contentDescription="@string/str_navigator_img"
+                                android:padding="@dimen/img_bottom_icon_padding"
+                                android:src="@drawable/ic_navigator" />
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/font_cairo_bold"
+                            android:text="@string/str_navigator_img"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/tv_kpk_txt_size" />
+                </LinearLayout>
+
+                <!--layout user rate-->
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/et_search_margin_left_right"
+                        android:layout_marginRight="@dimen/et_search_margin_left_right"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:id="@+id/layoutUserRate"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/layout_bottom_height"
+                            android:layout_marginBottom="@dimen/et_search_padding_left_right"
+                            android:background="@drawable/bg_home_icon">
+
+                        <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:contentDescription="@string/str_user_rate_img"
+                                android:padding="@dimen/img_bottom_icon_padding"
+                                android:src="@drawable/ic_rateuser" />
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/font_cairo_bold"
+                            android:text="@string/str_user_rate_img"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/tv_kpk_txt_size" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

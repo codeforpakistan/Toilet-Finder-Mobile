@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_app_intro"
+        tools:context=".appIntro.FragmentExplore">
+
+
+    <ImageView
+            android:id="@+id/imgExplore"
+            android:layout_width="@dimen/img_intro_width_height"
+            android:layout_height="@dimen/img_intro_width_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/img_permission_logo_margin_top"
+            android:src="@drawable/ic_explore" />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgExplore"
+            android:layout_marginTop="@dimen/recyclerview_margin_top"
+            android:paddingBottom="@dimen/img_permission_logo_margin_top">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="@dimen/tv_app_intro_txt_size"
+                    android:layout_marginLeft="@dimen/tv_app_intro_txt_size"
+                    android:layout_marginRight="@dimen/tv_app_intro_txt_size"
+                    android:text="@string/str_explore_title"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/tv_intro_txt_size" />
+            <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="@dimen/tv_app_intro_txt_size"
+                    android:layout_marginRight="@dimen/tv_app_intro_txt_size"
+                    android:text="@string/str_explore"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/tv_intro_txt_size" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

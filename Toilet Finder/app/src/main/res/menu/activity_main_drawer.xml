@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:title="@string/str_home"
+                android:id="@+id/menu_home"
+                android:icon="@drawable/ic_home"/>
+
+        <item
+                android:title="@string/str_add_new_toilet"
+                android:id="@+id/menu_add_new_toilet"
+                android:icon="@drawable/ic_toilet"/>
+
+        <item
+                android:title="@string/str_language"
+                android:id="@+id/menu_change_language"
+                android:icon="@drawable/ic_language"/>
+
+        <item
+                android:title="@string/str_all_toilets"
+                android:id="@+id/menu_all_toilets"
+                android:icon="@drawable/ic_toilet"/>
+    </group>
+
+   <item android:title="@string/str_others">
+      <menu>
+          <group android:checkableBehavior="single">
+
+              <item
+                      android:icon="@drawable/ic_help"
+                      android:title="@string/str_help"
+                      android:id="@+id/menu_help"/>
+
+              <item
+                      android:icon="@drawable/ic_about_us"
+                      android:title="@string/str_about_us"
+                      android:id="@+id/menu_about_us"/>
+          </group>
+      </menu>
+   </item>
+</menu>

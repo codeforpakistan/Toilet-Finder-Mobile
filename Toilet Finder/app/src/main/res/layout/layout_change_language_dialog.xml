@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/btn_new_toilet_add_margin_top"
+        android:background="@drawable/bg_dialog">
+
+    <ImageView
+            android:layout_width="@dimen/img_nav_width_height"
+            android:layout_height="@dimen/img_nav_width_height"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/nav_views_margin"
+            android:src="@mipmap/ic_launcher" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_cairo_bold"
+            android:gravity="center"
+            android:text="@string/str_language"
+            android:textSize="@dimen/tv_review_toilet_title_size" />
+
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/radioGroupLanguage"
+            android:layout_marginTop="@dimen/tv_add_new_toilet_margin_top">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_english"
+                android:id="@+id/radioLngEnglish"
+                android:buttonTint="@color/colorPrimary"
+                android:fontFamily="@font/font_cairo_regular"
+                android:layout_marginEnd="@dimen/radio_btn_margin_right"
+                android:layout_marginRight="@dimen/radio_btn_margin_right"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioLngUrdu"
+                android:text="@string/str_urdu"
+                android:buttonTint="@color/colorPrimary"
+                android:fontFamily="@font/font_cairo_regular"
+                android:layout_marginEnd="@dimen/radio_btn_margin_right"
+                android:layout_marginStart="@dimen/radio_btn_margin_right"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_pashto"
+                android:buttonTint="@color/colorPrimary"
+                android:fontFamily="@font/font_cairo_regular"
+                android:id="@+id/radioLngPashto"
+                android:layout_marginStart="@dimen/radio_btn_margin_right"
+                android:layout_marginLeft="@dimen/radio_btn_margin_right"/>
+    </RadioGroup>
+</LinearLayout>
