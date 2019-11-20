@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">عوامی ٹوالیٹ فائنڈر</string>
+    <string name="str_home">ہوم</string>
+    <string name="str_add_new_toilet">نیا ٹوالیٹ شامل کریں</string>
+
+    <string name="str_drawer_close">بند کریں</string>
+    <string name="str_drawer_open">کھولو</string>
+    <string name="title_activity_maps">نقشہ</string>
+
+    <string name="str_instruction_new_toilet">نیا ٹوالیٹ شامل کرنے کی ہدایت</string>
+    <string name="str_instruction_msg">
+        طریقہ 1: (GPS فعال ہے اور بیت الخلا کے قریب ہے)\n
+        1: نقشہ کو موجودہ مقام پر منتقل کرنے کے لئے "میرا مقام" بٹن (نقشہ کے دائیں اوپر کونے) کو دبائیں۔\n
+        2: دبائیں "ٹوائلٹ شامل کریں" بٹن (اوپری میں "+" بٹن)\n
+
+        طریقہ 2: (GPS یا آپ کے مقام پر کوئی انحصار نہیں ہے۔\n
+        1. نقشہ کو اس مقام پر منتقل کریں جس میں آپ ٹوائلٹ شامل کرنا چاہتے ہیں۔\n
+        2. لمبی کلیک (پوزیشن پر کلک اور پکڑو۔ پاپ اپ مینو سے "ٹوائلٹ شامل کریں" کا انتخاب کریں۔\n
+
+        نوٹ:\n
+        1. GPS مقام اور پتہ خود بخود طے ہوگا کہ براہ کرم ڈبل چیک کریں کہ آیا پتہ آپ کا ہے یا نہیں۔
+        متوقع جگہ\n
+        2. منتخب مقام کے بٹن (GPS کے مقام کے قریب) کو کچھ POI منتخب کرنے کے لئے استعمال کیا جاسکتا ہے۔
+        نزدیک اور خود بخود عنوان بھریں۔
+    </string>
+    <string name="str_option_to_add_toilet">نیا ٹوالیٹ شامل کرنے کے لئے ایک آپشن کا انتخاب کریں</string>
+
+    <string name="str_toilet_name">ٹوالیٹ کا نام ...</string>
+    <string name="str_title">عنوان</string>
+    <string name="str_toilet_address">ٹوالیٹ ایڈریس ...</string>
+    <string name="str_addresss">پتہ</string>
+    <string name="str_provider">فراہم کرنے والا</string>
+    <string name="str_latitude_longitude">عرض بلد اور طول بلد خطوط</string>
+    <string name="str_added_by">نے شامل کیا</string>
+    <string name="str_add_toilet">ٹوالیٹ شامل کریں</string>
+
+
+    <string-array name="provider_names">
+        <item>فراہم کنندہ کو منتخب کریں</item>
+        <item>بس اسٹیشن</item>
+        <item>پٹرول / سی این جی پمپ</item>
+        <item>ہوائی اڈ .ہ</item>
+        <item>خریداری مرکز</item>
+        <item>پارک</item>
+        <item>ریلوےسٹیشن</item>
+        <item>دوسرے</item>
+    </string-array>
+
+
+    <string-array name="category_names">
+        <item>زمرہ منتخب کریں</item>
+        <item>بس اسٹیشن</item>
+        <item>پٹرول / سی این جی پمپ</item>
+        <item>ہوائی اڈ .ہ</item>
+        <item>خریداری مرکز</item>
+        <item>پارک</item>
+        <item>ریلوےسٹیشن</item>
+        <item>دوسرے</item>
+    </string-array>
+
+    <string name="str_name">نام</string>
+    <string name="str_category">قسم</string>
+    <string name="str_location">مقام</string>
+    <string name="str_male">مرد</string>
+    <string name="str_female">عورت</string>
+    <string name="str_both_male_and_female">مرد اور عورت دونوں</string>
+    <string name="str_accessible_physical_challenge">قابل فزیکل چیلنج</string>
+    <string name="str_parking">پارکنگ</string>
+    <string name="str_sanitary_disposal_bin">سینیٹری ڈسپوزل بن</string>
+    <string name="str_payment_required">ادائیگی کی ضرورت ہے</string>
+    <string name="str_add_location_from_map">نقشہ سے مقام شامل کریں</string>
+    <string name="str_add_place">جگہ شامل کریں</string>
+    <string name="str_toilet_available_for">ٹوالیٹ دستیاب ہے</string>
+    <string name="str_available_facilities_of_toilet">ٹوالیٹ کی دستیاب سہولیات</string>
+    <string name="str_permission_request">اجازت کی درخواست</string>
+    <string name="str_permission_msg">مطلوبہ خدمات کو آپ کے آلے کے مقام کی ضرورت ہے ، براہ کرم اجازت دیں</string>
+    <string name="str_grant_permission">گرانٹ اجازت</string>
+    <string name="str_provider_required">فراہم کنندہ کی ضرورت ہے</string>
+    <string name="str_required">ضرورت ہے</string>
+    <string name="str_gender_required">برائے کرم صنف منتخب کریں</string>
+    <string name="str_new_toilet_added_successfuly">نیا ٹوالیٹ کامیابی کے ساتھ شامل کیا گیا</string>
+    <string name="str_add_new_toilet_msg">براہ کرم انتظار کریں جب تک نیا ٹوالیٹ شامل ہوجائے</string>
+
+    <string name="str_review_the_toilet">ٹوالیٹ کا جائزہ لیں</string>
+    <string name="str_take_picture">تصویر لے</string>
+    <string name="str_optional">(اختیاری)</string>
+    <string name="str_submit_your_review">اپنا جائزہ پیش کریں</string>
+    <string name="str_to_review_toilet_tap_here">ٹوالیٹ کا جائزہ لینے کے لئے یہاں کلک کریں</string>
+    <string name="str_use_current_location">موجودہ مقام استعمال کریں</string>
+    <string name="str_add_coordinate_from_map">نقشہ سے کوآرڈینیٹ شامل کریں</string>
+    <string name="str_complete_action">ایکشن منتخب کریں</string>
+    <string name="str_pick_image_from_gallery">گیلری سے فوٹو منتخب کریں</string>
+    <string name="str_take_img_using_camera">کیمرے سے فوٹو لے لو</string>
+
+    <string name="str_submit_review">جائزہ پیش کیا گیا</string>
+    <string name="str_review_thank_you">آپ کے تاثرات کا شکریہ ، ہم جلد ہی اس کا جائزہ لیں گے</string>
+    <string name="str_review_not_submitted">جائزہ پیش نہیں کیا گیا</string>
+    <string name="str_review_submisson_error">جائزہ پیش کرنے کے دوران ایک خرابی پیش آگئی</string>
+    <string name="str_error">خرابی</string>
+    <string name="str_error_on_server">جائزہ پیش کرنے کے دوران سرور پر ایک خرابی پیش آگئی</string>
+    <string name="str_review_msg">براہ کرم ٹوالیٹ کے بارے میں کچھ الفاظ لکھیں</string>
+    <string name="str_rate_toilet">براہ کرم پہلے ٹوائلٹ کی درجہ بندی کریں</string>
+    <string name="str_allow_all_permission">آپ کو تمام درخواست کی اجازت کو چالو کرنا چاہئے</string>
+    <string name="str_manually_allow_permission">آپ کو اطلاق کی ترتیب سے دستی طور پر پڑھنے کی اجازت کو قابل بنانا چاہئے
+    </string>
+    <string name="str_submitting_review">جائزہ پیش کر رہا ہے…</string>
+    <string name="str_review_submission_msg">کچھ دیر انتظار کریں ہم آپ کا جائزہ پیش کریں</string>
+    <string name="str_internet_msg">یقینی بنائیں کہ آپ کے پاس ایک فعال انٹرنیٹ کنیکشن ہے</string>
+
+    <string name="str_language">زبان تبدیل کریں</string>
+    <string name="str_english">انگریزی</string>
+    <string name="str_urdu">اردو</string>
+    <string name="str_pashto">پشتو</string>
+
+    <string name="str_hand_washing_facility">ہاتھ دھونے کی سہولت</string>
+    <string name="str_soap">صابن</string>
+    <string name="str_khyber_pakhtunkwa">خیبر پختونخواہ</string>
+    <string name="str_powered_by">کی طرف سے پیشکش</string>
+    <string name="str_kpk_information_board">خیبر پختونخواہ انفارمیشن بورڈ ٹکنالوجی</string>
+
+    <string name="str_search_for_toilet">اپنے آس پاس کے عوامی بیت الخلا کی تلاش کریں۔</string>
+    <string name="str_nearby">قریب</string>
+
+    <string name="str_public_toilet">عوامی لیٹرین</string>
+    <string name="str_explore_img">دریافت کریں</string>
+    <string name="str_navigator_img">نیویگیٹر</string>
+    <string name="str_user_rate_img">صارف کی شرح</string>
+    <string name="str_how_it_works">یہ کیسے کام کرتا ہے</string>
+    <string name="str_toilet_detail_image">ٹوالیٹ تفصیل کی تصویر</string>
+    <string name="str_amenities">سہولیات</string>
+    <string name="str_accessibility">رسائ</string>
+    <string name="str_hand_wash">ہاتھ دھونے</string>
+    <string name="str_reviews">جائزہ</string>
+    <string name="str_review_this_toilet">اس کا جائزہ لیں</string>
+    <string name="str_location_on_map">نقشہ پر جگہ</string>
+    <string name="str_toilet_is_not_reviewed">ٹوالیٹ کا جائزہ نہیں لیا جاتا ہے</string>
+    <string name="str_search_for_a_toilet">بیت الخلا کی تلاش کریں</string>
+    <string name="str_filter_toilet">فلٹر ٹوالیٹ</string>
+    <string name="str_search">تلاش کریں</string>
+    <string name="str_gender">صنف؟</string>
+    <string name="str_both">دونوں</string>
+    <string name="str_distance">فاصلے</string>
+    <string name="str_yes">جی ہاں</string>
+    <string name="str_no">نہیں</string>
+    <string name="str_rating">درجہ بندی</string>
+    <string name="str_write_your_feedback">اپنی رائے لکھیں</string>
+    <string name="str_no_toilet_is_found">ٹوائلٹ نہیں ملا</string>
+    <string name="str_no_internet_connection">انٹرنیٹ کنکشن نہیں ہے</string>
+    <string name="str_male_female">مرد/خواتین</string>
+
+    <string name="str_help">مدد</string>
+
+    <string name="str_about_us">ہمارے بارے میں</string>
+    <string name="str_others">دوسرے</string>
+    <string name="str_location_title">مقام استعمال کریں؟</string>
+    <string name="str_location_msg">ایپ کو GPS کو فعال کرنے کی ضرورت ہے۔ کیا آپ ترتیبات کے مینو میں جانا چاہتے ہیں؟</string>
+    <string name="str_setting">ترتیبات</string>
+    <string name="str_cancel">منسوخ کریں</string>
+    <string name="str_get_direction">سمت حاصل کریں</string>
+    <string name="str_permission_title">اجازت نہیں دی گئی</string>
+    <string name="str_permission_msg_dialog">اجازت مستقل طور پر مسترد کردی جاتی ہے.اجازت کی اجازت دینے کیلئے ترتیب پر جائیں تاکہ ایپ اپنے تمام فنکشن کو صحیح طریقے سے انجام دے</string>
+
+    <string name="str_explore_title">ٹوالیٹ فائنڈر میں آپ کا استقبال ہے!</string>
+    <string name="str_explore">
+یہ ایپ آپ کو اپنے موجودہ مقام نقاط کی بنیاد پر بیت الخلاء میں بیت الخلا کا محل وقوع دریافت کرنے دیتی ہے۔ آپ عوامی یا نجی بیت الخلا یا ایک قابل رسائی ٹوائلٹ تلاش کرنے جیسے فلٹرز پر بھی قریب قریب ٹوائلٹ والے مقامات کی تلاش کرسکتے ہیں۔
+اس ایپ سے خیبر پختونخوا کے شہریوں کو بیت الخلا تلاش کرنے اور ان کی صحت اور حفظان صحت کی دیکھ بھال کرنے کے قابل بناتا ہے۔
+لوکلائزیشن کے لئے بھی مدد ملتی ہے ، جس سے صارفین کو اپنی مطلوبہ زبان کے مابین تبدیل ہونا پڑتا ہے۔
+    </string>
+
+
+    <string name="str_navigate">
+       ٹوالیٹ فائنڈر نیویگیٹ اور قریب ترین ٹوائلٹ تلاش کرنا آسان بناتا ہے
+ہوم اسکرین میں سرچ بار اور قریبی ٹوالیٹ کی تجاویز ہیں۔
+سرچ بار صارف کے مقام کی بنیاد پر قریبی ٹوائلٹوں کو تجاویز دیتا ہے۔ صارف کسی مخصوص جگہ یا جگہ پر بیت الخلا کے مقام کی تلاش بھی کرسکتا ہے۔
+    </string>
+
+    <string name="str_user_rate">
+        ٹوالیٹ فائنڈر ایپ صارفین کو عوامی / نجی / قابل رسائ ٹوائلٹ استعمال کرنے کے اپنے تجربے کی درجہ بندی کرنے کے قابل بناتی ہے۔ صارفین بیت الخلا کی صفائی کی درجہ بندی ، صاف پانی کی دستیابی ، صابن اور ٹشو پیپر کی دستیابی اور کاموڈس اور ٹونٹی کی مناسب کاروائی جیسے تاثرات فراہم کرسکتے ہیں۔
+    </string>
+
+    <string name="str_advance_search">اعلی درجے کی تلاش</string>
+    <string name="str_no_toilet_found_in_10_km">10 کلومیٹر کے دائرے میں کوئی ٹوائلٹ نہیں ملا ، ہماری پیشگی تلاش کی کوشش کریں</string>
+
+    <string name="str_all_toilets">تمام ٹوائلٹ</string>
+
+    <string name="str_search_by_city">شہر کے لحاظ سے تلاش کریں</string>
+
+    <string name="str_no_result_found">کوئی نتیجہ نہیں ملا</string>
+    <string name="str_no_search_result">ہمیں آپ کی تلاش کے مطابق کوئی ٹوائلٹ نہیں ملا</string>
+    <string name="str_searching_toilet">بیت الخلا کی تلاش ہو رہی ہے…</string>
+
+    <string name="str_or">یا</string>
+    <string-array name="city_names">
+        <item>شہر منتخب کریں</item>
+        <item>ایبٹ آباد</item>
+        <item>اڈزئی</item>
+        <item>الپوری</item>
+        <item>اکوڑہ خٹک</item>
+        <item>ایوبیہ</item>
+        <item>بندہ داؤد شاہ</item>
+        <item>بنوں</item>
+        <item>باتھیلہ</item>
+        <item>بٹگرام</item>
+        <item>بیروٹ</item>
+        <item>چکدرہ</item>
+        <item>چارسدہ</item>
+        <item>چترال</item>
+        <item>ڈگر</item>
+        <item>درگئی</item>
+        <item>دریا خان</item>
+        <item>ڈیرہ اسماعیل خان</item>
+        <item>دوآبہ</item>
+        <item>دیر</item>
+        <item>ڈروش</item>
+        <item>ہنگو</item>
+        <item>ہری پور</item>
+        <item>کرک</item>
+        <item>کوہاٹ</item>
+        <item>کولاچی</item>
+        <item>لکی مروت</item>
+        <item>لاتمبر</item>
+        <item>مدیان</item>
+        <item>مانسہرہ</item>
+        <item>مردان</item>
+        <item>مستوج</item>
+        <item>مینگورہ</item>
+        <item>نوشہرہ</item>
+        <item>پہاڑ پور</item>
+        <item>پبی</item>
+        <item>پشاور</item>
+        <item>سیدو شریف</item>
+        <item>شورکوٹ</item>
+        <item>شیوا اڈا</item>
+        <item>صوابی</item>
+        <item>سوات</item>
+        <item>تنگی</item>
+        <item>ٹانک</item>
+        <item>تھل</item>
+        <item>تیمرگرہ</item>
+        <item>ٹورڈر</item>
+    </string-array>
+
+</resources>

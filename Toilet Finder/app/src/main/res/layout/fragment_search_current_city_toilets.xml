@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context=".fragments.SearchCurrentCityToilets">
+
+    <!--layout search bar  -->
+    <LinearLayout
+            android:id="@+id/layoutSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white_gray1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/layout_fragment_search_toolbar_padding">
+
+        <ImageView
+                android:id="@+id/imgSearch"
+                android:layout_width="@dimen/img_search_width_height"
+                android:layout_height="@dimen/img_search_width_height"
+                android:src="@drawable/ic_search_128" />
+
+        <LinearLayout
+                android:layout_width="@dimen/view_line_separator_width"
+                android:layout_height="@dimen/img_search_width_height"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/view_line_separator_margin_left"
+                android:layout_marginRight="@dimen/view_line_separator_margin_left"
+                android:background="@color/color_light_gray" />
+
+        <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/font_cairo_regular"
+                android:hint="@string/str_search_for_a_toilet"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/black" />
+
+
+        <ImageView
+                android:id="@+id/imgClearSearch"
+                android:layout_width="@dimen/img_clear_width_height"
+                android:layout_height="@dimen/img_clear_width_height"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_close_black"
+                android:tint="#5F5F5F"
+                android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/tvOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutSearch"
+            android:fontFamily="@font/font_cairo_bold"
+            android:gravity="center"
+            android:text="@string/str_or"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_kpk_txt_size" />
+
+    <TextView
+            android:id="@+id/tvSearchByCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvOR"
+            android:layout_marginLeft="@dimen/layout_fragment_search_toolbar_padding"
+            android:layout_marginTop="-5dp"
+            android:layout_marginRight="@dimen/layout_fragment_search_toolbar_padding"
+            android:fontFamily="@font/font_cairo_regular"
+            android:text="@string/str_search_by_city"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_kpk_txt_size" />
+
+    <Spinner
+            android:id="@+id/spinnerCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSearchByCity"
+            android:layout_marginLeft="@dimen/layout_fragment_search_toolbar_padding"
+            android:layout_marginRight="@dimen/layout_fragment_search_toolbar_padding"
+            android:background="@drawable/spinner_bg"
+            android:entries="@array/city_names" />
+    <!--progress bar -->
+    <ProgressBar
+            android:id="@+id/progressBarSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    <!--layout no toilet found -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/btn_review_margin"
+            android:layout_marginRight="@dimen/btn_review_margin"
+            android:id="@+id/layoutNoToiletFound"
+            android:visibility="gone"
+            >
+
+
+        <ImageView
+                android:layout_width="@dimen/cardview_nearby_width"
+                android:layout_height="@dimen/cardview_nearby_height"
+                android:src="@drawable/ic_no_search_result"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/str_no_toilet_is_found"
+                />
+
+        <TextView
+                android:id="@+id/tvNoResultFound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_cairo_bold"
+                android:gravity="center"
+                android:text="@string/str_no_result_found"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tv_toolbar_txt_size" />
+        <!--No toilet found -->
+        <TextView
+                android:id="@+id/tvNoToiletFound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_cairo_regular"
+                android:gravity="center"
+                android:layout_marginTop="-10dp"
+                android:text="@string/str_no_toilet_found_in_10_km"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tv_toolbar_txt_size"
+                />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewSearchToilet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btnAdvanceSearch"
+            android:layout_below="@id/spinnerCity"
+            android:layout_marginTop="@dimen/recyclerview_margin_top" />
+
+    <Button
+            android:id="@+id/btnAdvanceSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/btn_review_margin"
+            android:background="@drawable/bg_button"
+            android:fontFamily="@font/font_cairo_regular"
+            android:text="@string/str_advance_search"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_add_toilet_txt_size" />
+
+
+    <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="6dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone" />
+</RelativeLayout>

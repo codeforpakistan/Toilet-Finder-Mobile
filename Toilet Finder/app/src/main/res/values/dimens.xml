@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Toolbar TextView Text size-->
+    <dimen name="tv_toolbar_txt_size">20sp</dimen>
+
+    <!--Permission activity -->
+    <dimen name="img_permission_width_height">100dp</dimen>
+    <dimen name="img_permission_logo_margin_top">70dp</dimen>
+    <dimen name="tv_permission_request_txt_size">23sp</dimen>
+    <dimen name="tv_permission_request_margin_top">10dp</dimen>
+    <dimen name="tv_permission_msg_txt_size">18sp</dimen>
+    <dimen name="btn_permission_grant_margin_bottom">30dp</dimen>
+
+
+    <!--splash screen-->
+    <dimen name="img_logo_width_height">120dp</dimen>
+    <dimen name="img_marker_margin_top">20dp</dimen>
+    <dimen name="tv_appname_txt_size">20sp</dimen>
+    <dimen name="tv_splash_margin_top">10dp</dimen>
+    <dimen name="img_kpitb_width_height">100dp</dimen>
+    <dimen name="img_kpitb_margin">15dp</dimen>
+    <dimen name="tv_kpk_txt_size">18sp</dimen>
+    <dimen name="tv_powered_by_txt_size">14sp</dimen>
+
+
+    <!--Navigation Header-->
+    <dimen name="img_nav_width_height">120dp</dimen>
+    <dimen name="nav_views_margin">15dp</dimen>
+    <dimen name="tv_nav_txt_size">20sp</dimen>
+
+    <!--add new Toilet -> use current location -->
+    <dimen name="tv_add_toilet_txt_size">18sp</dimen>
+    <dimen name="layout_add_new_toilet_margin">10dp</dimen>
+    <dimen name="tv_add_new_toilet_margin_top">10dp</dimen>
+    <dimen name="btn_add_toilet_txt_size">20sp</dimen>
+    <dimen name="btn_add_toilet_margin_left_right">30dp</dimen>
+    <dimen name="radio_btn_margin_right">10dp</dimen>
+    <dimen name="view_height">1dp</dimen>
+    <dimen name="bg_edittext_toilet_padding">12dp</dimen>
+
+    <!--layout new toilet add dialog-->
+    <dimen name="btn_new_toilet_add_margin_top">20dp</dimen>
+
+
+    <!--Fragment add toilet using map coordinate-->
+    <dimen name="img_marker_width_height">40dp</dimen>
+
+    <!-- Review Toilet fragment -->
+    <dimen name="tv_review_toilet_title_size">20sp</dimen>
+    <dimen name="tv_review_toilet_margin_top">20dp</dimen>
+    <dimen name="layout_review_toilet_padding_left_right">20dp</dimen>
+    <dimen name="et_review_toilet_margin_top">10dp</dimen>
+    <dimen name="btn_take_picture_margin_top">20dp</dimen>
+    <dimen name="btn_take_picture_txt_size">18sp</dimen>
+    <dimen name="btn_take_picture_padding_left_right">30dp</dimen>
+    <dimen name="img_preview_width">300dp</dimen>
+    <dimen name="img_preview_height">200dp</dimen>
+    <dimen name="et_review_padding">10dp</dimen>
+    <dimen name="btn_review_margin">10dp</dimen>
+
+
+    <!--layout marker info window -->
+    <dimen name="tv_title_window_info_txt_size">16sp</dimen>
+    <dimen name="tv_info_window_margin_top">10dp</dimen>
+    <dimen name="btn_jnfo_window_txt_size">16sp</dimen>
+    <dimen name="btn_info_window_margin">6dp</dimen>
+    <dimen name="tv_rating_average_margin_left">8dp</dimen>
+
+    <!--app intro -->
+    <dimen name="img_intro_width_height">150dp</dimen>
+    <dimen name="img_intro_margin_top">150dp</dimen>
+    <dimen name="tv_app_intro_txt_size">30dp</dimen>
+
+    <!-- Home fragment -->
+    <dimen name="layout_container_margin_top">185dp</dimen>
+    <dimen name="layout_header_height">150dp</dimen>
+    <dimen name="img_home_marker_width_height">60dp</dimen>
+    <dimen name="et_search_padding_top_bottom">12dp</dimen>
+    <dimen name="et_search_padding_left_right">6dp</dimen>
+    <dimen name="et_search_margin_left_right">20dp</dimen>
+    <dimen name="et_search_margin_top">12dp</dimen>
+    <dimen name="recyclerview_margin_top">10dp</dimen>
+    <dimen name="layout_bottom_height">80dp</dimen>
+    <dimen name="img_bottom_icon_padding">15dp</dimen>
+    <dimen name="img_search_home_width_height">30dp</dimen>
+
+    <!--layout row nearby toilet-->
+    <dimen name="cardview_nearby_width">280dp</dimen>
+    <dimen name="cardview_nearby_height">175dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="cardview_nearby_margin_left_right">15dp</dimen>
+    <dimen name="tv_public_toilet_txt_size">20sp</dimen>
+    <dimen name="tv_toilet_margin_left">20dp</dimen>
+    <dimen name="tv_toilet_name_margin_bottom">30dp</dimen>
+
+    <!--fragment dialog -->
+    <dimen name="img_close_width_height">30dp</dimen>
+
+    <!-- fragment Toilet detail -->
+    <dimen name="img_toilet_detail_height">180dp</dimen>
+    <dimen name="tv_toilet_verfied_txt_size">14sp</dimen>
+    <dimen name="layout_aminities_margin_top">12dp</dimen>
+    <dimen name="layout_aminities_margin">10dp</dimen>
+    <dimen name="img_aminities_width_height">35dp</dimen>
+    <dimen name="line_separator_height">1dp</dimen>
+    <dimen name="line_separator_margin">10dp</dimen>
+    <dimen name="img_left_right_arrow_width_height">30dp</dimen>
+    <dimen name="toilet_rating_bar_margin_top">4dp</dimen>
+    <dimen name="tv_amenities_txt_size">16sp</dimen>
+    <dimen name="map_single_toilet_height">180dp</dimen>
+    <dimen name="btn_review_it_margin">5dp</dimen>
+
+
+    <!--layout review viewpager -->
+    <dimen name="tv_toilet_review_username_txt_size">14sp</dimen>
+    <dimen name="tv_intro_txt_size">20sp</dimen>
+
+
+
+    <!-- fragment search current city toilets -->
+    <dimen name="layout_fragment_search_toolbar_padding">10dp</dimen>
+    <dimen name="img_search_width_height">30dp</dimen>
+    <dimen name="view_line_separator_margin_left">6dp</dimen>
+    <dimen name="view_line_separator_width">2dp</dimen>
+    <dimen name="img_filter_width_height">24dp</dimen>
+    <dimen name="img_clear_width_height">20dp</dimen>
+
+    <!--layout search toilet row -->
+    <dimen name="layout_search_margin_top">12dp</dimen>
+    <dimen name="layout_search_padding">10dp</dimen>
+    <dimen name="tv_distance_padding_top_bottom">12dp</dimen>
+
+    <!--fragment filter toilet-->
+    <dimen name="scrollview_margin_left_right">10dp</dimen>
+    <dimen name="tv_filter_fragment_txt_size">18sp</dimen>
+    <dimen name="tv_filterfragment_margin_top">12dp</dimen>
+    <dimen name="btn_gender_margin">10dp</dimen>
+    <dimen name="btn_gender_txt_size">16sp</dimen>
+    <dimen name="layout_line_separtor_margin_top">15dp</dimen>
+    <dimen name="tv_display_distance_txt_size">16sp</dimen>
+
+    <!--fragment filter toilet result-->
+    <dimen name="img_no_toilet_found_width_height">220dp</dimen>
+
+
+</resources>

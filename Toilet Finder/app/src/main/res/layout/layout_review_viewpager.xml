@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arsalan khan"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_toilet_review_username_txt_size"
+            android:id="@+id/tvReviewerName"
+            android:fontFamily="@font/font_cairo_bold"
+
+    />
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:id="@+id/userToiletRating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_marginTop="@dimen/toilet_rating_bar_margin_top"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Review"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_toilet_review_username_txt_size"
+            android:id="@+id/tvUserReview"
+            android:layout_marginTop="@dimen/layout_aminities_margin"
+            android:fontFamily="@font/font_cairo_regular"
+            tools:ignore="SmallSp" />
+</LinearLayout>

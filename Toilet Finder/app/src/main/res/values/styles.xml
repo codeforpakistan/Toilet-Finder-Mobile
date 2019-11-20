@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@drawable/bg_app_intro</item>
+    </style>
+
+    <!-- rating bar style -->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <!-- rating bar style -->
+    <style name="RatingBarAverage" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@android:color/black</item>
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+</resources>

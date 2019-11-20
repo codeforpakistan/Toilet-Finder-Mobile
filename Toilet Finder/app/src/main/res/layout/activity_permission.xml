@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PermissionActivity">
+
+    <ImageView
+            android:layout_width="@dimen/img_permission_width_height"
+            android:layout_height="@dimen/img_permission_width_height"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/imgPermission"
+            android:layout_marginTop="@dimen/img_permission_logo_margin_top"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_permission_request"
+            android:textSize="@dimen/tv_permission_request_txt_size"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/imgPermission"
+            android:gravity="center"
+            android:id="@+id/tvPermissionRequired"
+            android:layout_marginTop="@dimen/tv_permission_request_margin_top"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_permission_msg"
+            android:textSize="@dimen/tv_permission_msg_txt_size"
+            android:layout_below="@id/tvPermissionRequired"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/tv_permission_request_margin_top"
+          />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="@string/str_grant_permission"
+            android:textSize="@dimen/btn_add_toilet_txt_size"
+            android:layout_marginLeft="@dimen/btn_add_toilet_margin_left_right"
+            android:layout_marginRight="@dimen/btn_add_toilet_margin_left_right"
+            android:textAllCaps="false"
+            android:id="@+id/btnGrantPermission"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:onClick="GrantLocationPermission"
+            android:layout_marginBottom="@dimen/btn_permission_grant_margin_bottom"/>
+</RelativeLayout>

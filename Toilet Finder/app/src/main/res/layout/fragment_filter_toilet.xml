@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/scrollview_margin_left_right"
+        android:layout_marginRight="@dimen/scrollview_margin_left_right"
+        tools:context=".fragments.FilterToiletFragment">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!--gender-->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_filterfragment_margin_top"
+                android:fontFamily="@font/font_cairo_bold"
+                android:text="@string/str_gender"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tv_filter_fragment_txt_size" />
+
+        <!--layout gender -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_filterfragment_margin_top"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/btnMale"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gender"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:text="@string/str_male"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_gender"
+                    android:textSize="@dimen/btn_gender_txt_size" />
+
+            <Button
+                    android:id="@+id/btnFemale"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/btn_gender_margin"
+                    android:layout_marginLeft="@dimen/btn_gender_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gender"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:text="@string/str_female"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_gender"
+                    android:textSize="@dimen/btn_gender_txt_size" />
+
+            <Button
+                    android:id="@+id/btnBothGender"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/btn_gender_margin"
+                    android:layout_marginLeft="@dimen/btn_gender_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gender"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:text="@string/str_both"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_gender"
+                    android:textSize="@dimen/btn_gender_txt_size" />
+
+        </LinearLayout>
+
+        <!--line separator-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/layout_line_separtor_margin_top"
+                android:layout_marginBottom="@dimen/layout_line_separtor_margin_top"
+                android:background="@android:color/black" />
+
+        <!--layout distance-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <!-- tv Distance -->
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font_cairo_bold"
+                    android:text="@string/str_distance"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/tv_filter_fragment_txt_size" />
+
+            <!-- tv display Distance -->
+            <TextView
+                    android:id="@+id/tvDisplayDistance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:gravity="right"
+                    android:text="@string/str_0_km"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/tv_display_distance_txt_size"
+                    android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--layout distance seek bar-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_filterfragment_margin_top"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:text="@string/str_0_km"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/tv_display_distance_txt_size" />
+
+            <SeekBar
+                    android:id="@+id/seekBarDistance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:max="5" />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:text="5 km"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/tv_display_distance_txt_size" />
+        </LinearLayout>
+
+        <!--line separator-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/layout_line_separtor_margin_top"
+                android:layout_marginBottom="@dimen/layout_line_separtor_margin_top"
+                android:background="@android:color/black" />
+
+        <!--tv Accessibility-->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_cairo_bold"
+                android:text="@string/str_accessibility"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tv_filter_fragment_txt_size" />
+
+        <!--layout accessibility -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tv_filterfragment_margin_top"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/btnAccessibilityYes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gender"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:text="@string/str_yes"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_gender"
+                    android:textSize="@dimen/btn_gender_txt_size" />
+
+            <Button
+                    android:id="@+id/btnAccessibilityNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/btn_gender_margin"
+                    android:layout_marginLeft="@dimen/btn_gender_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gender"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:text="@string/str_no"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_gender"
+                    android:textSize="@dimen/btn_gender_txt_size" />
+
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/btnSearchToilet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_add_toilet_margin_left_right"
+                android:layout_marginTop="@dimen/btn_add_toilet_margin_left_right"
+                android:layout_marginRight="@dimen/btn_add_toilet_margin_left_right"
+                android:layout_marginBottom="@dimen/layout_aminities_margin_top"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/font_cairo_regular"
+                android:text="@string/str_search"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tv_appname_txt_size" />
+    </LinearLayout>
+
+
+</ScrollView>
