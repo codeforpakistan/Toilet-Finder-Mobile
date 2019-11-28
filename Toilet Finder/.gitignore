@@ -12,4 +12,4 @@
 /captures
 .externalNativeBuild
 
-/app/src/main/java/com/watsoncell/toiletfinder/retrofit/*
+/app/src/main/java/com/watsoncell/publictoiletfinder/retrofit/*
