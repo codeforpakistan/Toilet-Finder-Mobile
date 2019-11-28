@@ -159,7 +159,7 @@
     <string name="str_setting">امستنې</string>
     <string name="str_cancel">لغوه کول</string>
     <string name="str_get_direction">لارښود ترلاسه کړئ</string>
-    <string name="str_permission_title">اجازه ورنکړل شوه</string>
+
     <string name="str_permission_msg_dialog">اجازه لیک د تل لپاره منع دی تاسو اړتیا لرئ تنظیم ته لاړشئ ترڅو اجازه ورته ورکړئ ترڅو اپل د دوی ټول فعالیت په سمه توګه ترسره کړي</string>
 
     <string name="str_explore_title">تشناب موندونکي ته ښه راغلاست!</string>
@@ -192,6 +192,18 @@
     <string name="str_no_result_found">کومه پایله ونه موندل شوه</string>
     <string name="str_no_search_result">موږ ستاسو د لټون مطابق هیڅ تشناب ونه موندل</string>
     <string name="str_searching_toilet">تشناب لټول ...</string>
+
+    <string name="str_0_km">0 کلومیتره</string>
+    <string name="str_km">کیلو میتر</string>
+    <string name="str_no_toilet_is_found_25_km">هیڅ تشناب مو نه دی موندلی په 25 کیلو متر کې.</string>
+    <string name="str_do_you_want_add_new_toilet"><u>ایا تاسو غواړئ نوی تشناب اضافه کړئ؟</u></string>
+    <string name="str_toilet_not_added">تشناب نه دی اضافه شوی!</string>
+    <string name="str_error_on_server_side">د سرور اړخ خطا!</string>
+    <string name="str_filter_a_toilet">تشناب فلټر کړئ</string>
+
+    <string name="speech_prompt">&#8230; یوڅه ووایه</string>
+    <string name="speech_not_supported">اوبخښه! ستاسو وسیله د ویناوې ملاتړ نه کوي</string>
+    <string name="tap_on_mic">د خبرو لپاره په مایک تپ وکړئ</string>
 
     <string-array name="city_names">
         <item>یو ښار غوره کړئ</item>

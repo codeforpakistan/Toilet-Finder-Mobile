@@ -11,9 +11,13 @@
             android:id="@+id/layoutSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/color_white_gray1"
+            android:background="@drawable/bg_search_layout"
             android:gravity="center_vertical"
             android:orientation="horizontal"
+            android:elevation="4dp"
+            android:layout_marginTop="@dimen/view_line_separator_margin_left"
+            android:layout_marginLeft="@dimen/layout_fragment_search_toolbar_padding"
+            android:layout_marginRight="@dimen/layout_fragment_search_toolbar_padding"
             android:padding="@dimen/layout_fragment_search_toolbar_padding">
 
         <ImageView
@@ -39,6 +43,8 @@
                 android:background="@android:color/transparent"
                 android:fontFamily="@font/font_cairo_regular"
                 android:hint="@string/str_search_for_a_toilet"
+                android:singleLine="true"
+                android:maxLines="1"
                 android:imeOptions="actionDone"
                 android:textColor="@android:color/black" />
 
@@ -50,7 +56,16 @@
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/ic_close_black"
                 android:tint="#5F5F5F"
-                android:visibility="gone" />
+                android:visibility="gone"/>
+
+        <ImageView
+                android:id="@+id/imgSpeechToText"
+                android:layout_marginLeft="@dimen/view_line_separator_margin_left"
+                android:layout_marginStart="@dimen/view_line_separator_margin_left"
+                android:layout_width="@dimen/img_search_width_height"
+                android:layout_height="@dimen/img_search_width_height"
+                android:src="@drawable/ic_speech_to_text" />
+
 
     </LinearLayout>
 
@@ -75,6 +90,7 @@
             android:layout_marginRight="@dimen/layout_fragment_search_toolbar_padding"
             android:fontFamily="@font/font_cairo_regular"
             android:text="@string/str_search_by_city"
+            android:singleLine="true"
             android:textColor="@android:color/black"
             android:textSize="@dimen/tv_kpk_txt_size" />
 
@@ -83,10 +99,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tvSearchByCity"
+            android:layout_marginTop="@dimen/view_line_separator_margin_left"
             android:layout_marginLeft="@dimen/layout_fragment_search_toolbar_padding"
             android:layout_marginRight="@dimen/layout_fragment_search_toolbar_padding"
-            android:background="@drawable/spinner_bg"
-            android:entries="@array/city_names" />
+            android:entries="@array/city_names"
+            android:padding="@dimen/layout_fragment_search_toolbar_padding"/>
+
     <!--progress bar -->
     <ProgressBar
             android:id="@+id/progressBarSearch"
@@ -165,14 +183,4 @@
             android:textSize="@dimen/btn_add_toilet_txt_size" />
 
 
-    <android.inputmethodservice.KeyboardView
-            android:id="@+id/keyboardview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:elevation="6dp"
-            android:focusable="true"
-            android:focusableInTouchMode="true"
-            android:visibility="gone" />
 </RelativeLayout>

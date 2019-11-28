@@ -8,18 +8,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1065952748109:android:d0f551622d7a200f073204",
+        "mobilesdk_app_id": "1:1065952748109:android:9af533f793a88b5a073204",
         "android_client_info": {
-          "package_name": "com.watsoncell.toiletfinder"
+          "package_name": "com.watsoncell.publictoiletfinder"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1065952748109-2fhf8dlkcm2pce8lbe9utssc1p83luum.apps.googleusercontent.com",
+          "client_id": "1065952748109-ilvp94vd9vko9o2e8sgcon8jqo4pjsuc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.watsoncell.toiletfinder",
-            "certificate_hash": "903037de9e33fdb433032d9d6cc73f116178afd5"
+            "package_name": "com.watsoncell.publictoiletfinder",
+            "certificate_hash": "87826dfbd6905d6924bd9f3ae9547498022844f0"
           }
         },
         {
@@ -36,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1065952748109-n0lskjnree75r3djh4ag8adm2vfmcm14.apps.googleusercontent.com",
+              "client_id": "1065952748109-8uo2mactpp14mp2ptu0ugg2u5gpuerm6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

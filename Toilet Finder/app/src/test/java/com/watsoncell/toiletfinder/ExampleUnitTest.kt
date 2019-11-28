@@ -1,4 +1,4 @@
-package com.watsoncell.toiletfinder
+package com.watsoncell.publictoiletfinder
 
 import org.junit.Test
 

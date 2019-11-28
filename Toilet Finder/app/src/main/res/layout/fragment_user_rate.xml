@@ -22,13 +22,15 @@
             android:layout_marginTop="@dimen/recyclerview_margin_top"
             android:paddingBottom="@dimen/img_permission_logo_margin_top">
 
-        <com.codesgood.views.JustifiedTextView
+        <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/tv_app_intro_txt_size"
                 android:text="@string/str_user_rate"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/tv_intro_txt_size" />
+                android:textSize="@dimen/tv_intro_txt_size"
+                android:textAlignment="viewStart"
+                android:gravity="start"/>
     </ScrollView>
 
 </RelativeLayout>
