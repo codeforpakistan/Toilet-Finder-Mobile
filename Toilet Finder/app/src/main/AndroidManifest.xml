@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        package="com.watsoncell.toiletfinder">
+        package="com.watsoncell.publictoiletfinder">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,7 +16,6 @@
 
     <application
             android:name=".MainApplication"
-            android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:largeHeap="true"
@@ -24,7 +23,7 @@
             android:networkSecurityConfig="@xml/network_security_config"
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
-            tools:ignore="GoogleAppIndexingWarning"
+            tools:ignore="AllowBackup,GoogleAppIndexingWarning"
             tools:targetApi="n">
 
         <meta-data
@@ -33,7 +32,7 @@
 
         <provider
                 android:name="android.support.v4.content.FileProvider"
-                android:authorities="com.watsoncell.toiletfinder.android.fileprovider"
+                android:authorities="com.watsoncell.publictoiletfinder.android.fileprovider"
                 android:exported="false"
                 android:grantUriPermissions="true">
             <meta-data
@@ -49,6 +48,7 @@
                 android:name=".appIntro.AppIntroActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait" />
+
         <activity android:name=".AddPlaceOnMapActivity" />
         <activity
                 android:name=".SplashScreenActivity"
@@ -66,10 +66,6 @@
         <activity
                 android:name=".ReviewToiletActivity"
                 android:windowSoftInputMode="stateHidden" />
-
-        <service
-                android:name=".services.FetchToiletListService"
-                android:exported="false" />
     </application>
 
 </manifest>

@@ -46,16 +46,20 @@
                     android:layout_marginRight="@dimen/tv_app_intro_txt_size"
                     android:text="@string/str_explore_title"
                     android:textAlignment="center"
+                    android:fontFamily="@font/font_cairo_regular"
+                    android:textStyle="bold"
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/tv_intro_txt_size" />
-            <com.codesgood.views.JustifiedTextView
+            <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
+                    android:layout_marginTop="-6dp"
                     android:layout_marginLeft="@dimen/tv_app_intro_txt_size"
                     android:layout_marginRight="@dimen/tv_app_intro_txt_size"
                     android:text="@string/str_explore"
                     android:textColor="@android:color/white"
+                    android:textAlignment="viewStart"
+                    android:gravity="start"
                     android:textSize="@dimen/tv_intro_txt_size" />
         </LinearLayout>
     </ScrollView>

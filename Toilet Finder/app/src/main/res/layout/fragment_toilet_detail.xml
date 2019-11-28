@@ -360,9 +360,10 @@
                         android:layout_width="@dimen/img_left_right_arrow_width_height"
                         android:layout_height="@dimen/img_left_right_arrow_width_height"
                         android:adjustViewBounds="true"
+                        android:autoMirrored="true"
                         android:src="@drawable/ic_left_arrow" />
 
-                <com.watsoncell.toiletfinder.utils.CustomViewPager
+                <com.watsoncell.publictoiletfinder.utils.CustomViewPager
                         android:id="@+id/viewPager_Review"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -373,6 +374,7 @@
                         android:layout_width="@dimen/img_left_right_arrow_width_height"
                         android:layout_height="@dimen/img_left_right_arrow_width_height"
                         android:adjustViewBounds="true"
+                        android:autoMirrored="true"
                         android:src="@drawable/ic_right_arrow" />
             </LinearLayout>
 

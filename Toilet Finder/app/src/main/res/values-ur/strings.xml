@@ -157,7 +157,6 @@
     <string name="str_setting">ترتیبات</string>
     <string name="str_cancel">منسوخ کریں</string>
     <string name="str_get_direction">سمت حاصل کریں</string>
-    <string name="str_permission_title">اجازت نہیں دی گئی</string>
     <string name="str_permission_msg_dialog">اجازت مستقل طور پر مسترد کردی جاتی ہے.اجازت کی اجازت دینے کیلئے ترتیب پر جائیں تاکہ ایپ اپنے تمام فنکشن کو صحیح طریقے سے انجام دے</string>
 
     <string name="str_explore_title">ٹوالیٹ فائنڈر میں آپ کا استقبال ہے!</string>
@@ -188,6 +187,18 @@
     <string name="str_no_result_found">کوئی نتیجہ نہیں ملا</string>
     <string name="str_no_search_result">ہمیں آپ کی تلاش کے مطابق کوئی ٹوائلٹ نہیں ملا</string>
     <string name="str_searching_toilet">بیت الخلا کی تلاش ہو رہی ہے…</string>
+
+    <string name="str_0_km">0 کلومیٹر</string>
+    <string name="str_km">کلومیٹر</string>
+    <string name="str_no_toilet_is_found_25_km">آپ کے رداس کے 25 کلومیٹر کے اندر کوئی ٹوائلٹ نہیں ملا۔</string>
+    <string name="str_do_you_want_add_new_toilet"><u>کیا آپ نیا بیت الخلا شامل کرنا چاہتے ہیں؟</u></string>
+    <string name="str_toilet_not_added">ٹوالیٹ شامل نہیں!</string>
+    <string name="str_error_on_server_side">سرور کی طرف کی غلطی!</string>
+    <string name="str_filter_a_toilet"> ٹوالیٹ کو فلٹر کریں</string>
+
+    <string name="speech_prompt">&#8230;کچھ بولیں</string>
+    <string name="speech_not_supported">معذرت! آپ کا آلہ تقریر ان پٹ کی حمایت نہیں کرتا ہے</string>
+    <string name="tap_on_mic">بولنے کے لئے مائک پر ٹیپ کریں</string>
 
     <string name="str_or">یا</string>
     <string-array name="city_names">

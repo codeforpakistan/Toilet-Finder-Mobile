@@ -2,5 +2,5 @@
 <paths>
     <external-path
             name="my_images"
-            path="Android/data/com.watsoncell.toiletfinder/files/Pictures"/>
+            path="Android/data/com.watsoncell.publictoiletfinder/files/Pictures"/>
 </paths>

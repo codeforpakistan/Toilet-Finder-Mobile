@@ -7,14 +7,28 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'io.fabric'
 
 android {
+
+    //By default .aab file removes localization files based on user phone settings, through this forcing .aab to not skip localization file
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
     compileSdkVersion 28
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.watsoncell.toiletfinder"
+        applicationId "com.watsoncell.publictoiletfinder"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 3
-        versionName "1.0.2"
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

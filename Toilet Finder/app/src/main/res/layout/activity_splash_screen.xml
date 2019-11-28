@@ -22,7 +22,7 @@
             android:layout_marginTop="@dimen/img_intro_margin_top"
             android:src="@drawable/ic_location_marker" />
 
-    <TextView
+   <!-- <TextView
             android:id="@+id/tv_Kpk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,13 +32,14 @@
             android:gravity="center"
             android:text="@string/str_khyber_pakhtunkwa"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/tv_kpk_txt_size" />
+            android:textSize="@dimen/tv_kpk_txt_size" />-->
 
     <TextView
             android:id="@+id/tv_appName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_Kpk"
+            android:layout_below="@id/imgMarker"
+            android:layout_marginTop="@dimen/tv_splash_margin_top"
             android:fontFamily="@font/font_cairo_regular"
             android:gravity="center"
             android:text="@string/app_name"

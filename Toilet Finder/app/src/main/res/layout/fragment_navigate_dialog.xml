@@ -31,13 +31,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/recyclerview_margin_top"
             android:layout_below="@id/imgNavigator">
-        <com.codesgood.views.JustifiedTextView
+        <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/str_navigate"
                 android:layout_margin="@dimen/tv_app_intro_txt_size"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/tv_intro_txt_size"
+                android:textAlignment="viewStart"
+                android:gravity="start"
                />
     </ScrollView>
 

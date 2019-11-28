@@ -1,6 +1,8 @@
 <resources>
 
-    <string name="server_client_id" translatable="false">342546482524-biuraffb1oklcu9460u6p1goo07el8me.apps.googleusercontent.com</string>
+    <!-- <string name="server_client_id" translatable="false">342546482524-biuraffb1oklcu9460u6p1goo07el8me.apps.googleusercontent.com</string>-->
+
+    <string name="server_client_id" translatable="false">1065952748109-8uo2mactpp14mp2ptu0ugg2u5gpuerm6.apps.googleusercontent.com</string>
 
     <string name="app_name">Public Toilet Finder</string>
     <string name="str_home">Home</string>
@@ -177,7 +179,6 @@ The search bar gives suggestions to the nearest toilets based on the users locat
     <string name="str_setting">Settings</string>
     <string name="str_cancel">Cancel</string>
     <string name="str_get_direction">Get Direction</string>
-    <string name="str_permission_title">Permission Denied</string>
     <string name="str_permission_msg_dialog">Permission is denied permanently. You need to go to setting to allow permission so that App perform all their function properly</string>
     <string name="str_advance_search">Advance Search</string>
     <string name="str_no_toilet_found_in_10_km">No toilet is found within 10 km radius, Try our advance search</string>
@@ -185,18 +186,75 @@ The search bar gives suggestions to the nearest toilets based on the users locat
 
     <string name="str_search_by_city">Search By City</string>
     <string name="str_or">Or</string>
-    
+
     <string name="str_no_result_found">No Result Found</string>
     <string name="str_no_search_result">We can\'t find any item matching your search</string>
     <string name="str_searching_toilet">Searching a toilet...</string>
+
     <string name="str_0_km">0 km</string>
     <string name="str_km">km</string>
     <string name="str_no_toilet_is_found_25_km">No toilet found inside 25km of your radius.</string>
     <string name="str_do_you_want_add_new_toilet"><u>Do you want to add a new toilet?</u></string>
     <string name="str_toilet_not_added">Toilet Not Added!</string>
     <string name="str_error_on_server_side">Server side error!</string>
+    <string name="str_filter_a_toilet">Filter a Toilet</string>
+
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
 
     <string-array name="city_names">
+        <item>Select a city</item>
+        <item>Abbottabad</item>
+        <item>Adezai</item>
+        <item>Alpuri</item>
+        <item>Akora Khattak</item>
+        <item>Ayubia</item>
+        <item>Banda Daud Shah</item>
+        <item>Bannu</item>
+        <item>Batkhela</item>
+        <item>Battagram</item>
+        <item>Birote</item>
+        <item>Chakdara</item>
+        <item>Charsadda</item>
+        <item>Chitral</item>
+        <item>Daggar</item>
+        <item>Dargai</item>
+        <item>Darya Khan</item>
+        <item>Dera Ismail Khan</item>
+        <item>Doaba</item>
+        <item>Dir</item>
+        <item>Drosh</item>
+        <item>Hangu</item>
+        <item>Haripur</item>
+        <item>Karak</item>
+        <item>Kohat</item>
+        <item>Kulachi</item>
+        <item>Lakki Marwat</item>
+        <item>Latamber</item>
+        <item>Madyan</item>
+        <item>Mansehra</item>
+        <item>Mardan</item>
+        <item>Mastuj</item>
+        <item>Mingora</item>
+        <item>Nowshera</item>
+        <item>Paharpur</item>
+        <item>Pabbi</item>
+        <item>Peshawar</item>
+        <item>Saidu Sharif</item>
+        <item>Shorkot</item>
+        <item>Shewa Adda</item>
+        <item>Swabi</item>
+        <item>Swat</item>
+        <item>Tangi</item>
+        <item>Tank</item>
+        <item>Thall</item>
+        <item>Timergara</item>
+        <item>Tordher</item>
+    </string-array>
+
+
+    <string-array name="city_names_english">
         <item>Select a city</item>
         <item>Abbottabad</item>
         <item>Adezai</item>
